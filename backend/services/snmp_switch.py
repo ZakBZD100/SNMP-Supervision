@@ -51,6 +51,7 @@ class SNMPSwitch(SNMPBase):
                                 continue
                     else:
                         #logger.info(f"OID {oid} returned no results")
+                        pass
                         
                 except Exception as e:
                     logger.debug(f"Error with OID {oid}: {e}")

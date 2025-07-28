@@ -2,31 +2,65 @@
 
 A modern SNMP monitoring system with real-time web interface for network equipment monitoring.
 
-## 🚀 Features
+## Features
 
 ### Backend (FastAPI + Python)
-- **Complete REST API** for SNMP management
-- **Server metrics** : CPU, memory, disk in real-time
-- **Switch metrics** : interfaces, traffic, connected devices
-- **Smart cache** to optimize performance
-- **Robust error handling** with automatic fallback
-- **Detailed logs** for debugging
+- Complete REST API for SNMP management
+- Server metrics: CPU, memory, disk in real-time
+- Switch metrics: interfaces, traffic, connected devices
+- Smart cache to optimize performance
+- Robust error handling with automatic fallback
+- Detailed logs for debugging
 
 ### Frontend (React + TypeScript)
-- **Modern dashboard** with responsive interface
-- **Real-time charts** for metrics
-- **Equipment management** (add, modify, delete)
-- **Live monitoring** of network interfaces
-- **Intuitive interface** for SNMP configuration
+- Modern dashboard with responsive interface
+- Real-time charts for metrics
+- Equipment management (add, modify, delete)
+- Live monitoring of network interfaces
+- Intuitive interface for SNMP configuration
 
-## 📋 Prerequisites
+## Screenshots
 
-- **Python 3.12+**
-- **Node.js 18+**
-- **npm** or **yarn**
-- **Git**
+### Login Interface
+![Login Interface](Screenshots/Login.png)
+The secure authentication interface with user login and registration capabilities.
 
-## 🛠️ Installation
+### Dashboard - Server Monitoring
+![Server Monitoring](Screenshots/Server.png)
+Real-time server metrics including CPU usage, memory consumption, and disk utilization with interactive charts.
+
+### Dashboard - Switch Monitoring
+![Switch Monitoring](Screenshots/Switch.png)
+Comprehensive switch interface monitoring showing port status, traffic statistics, and connected devices.
+
+### Alerts Management
+![Alerts Management](Screenshots/Alerts.png)
+Centralized alert system displaying critical events, warnings, and system notifications with filtering and sorting capabilities.
+
+### Configuration Panel
+![Configuration Panel](Screenshots/Configuration.png)
+Equipment management interface for adding, editing, and configuring SNMP devices with detailed settings.
+
+### Reports Generation
+![Reports Generation](Screenshots/Reports.png)
+Automated report generation system for performance analysis and historical data visualization.
+
+### Email Notifications
+![Email Notifications](Screenshots/Mail.png)
+Email alert system configuration and management for critical event notifications.
+
+### Dark Mode and Light Mode
+![Light Mode](Screenshots/WhiteMode.png)
+The application supports both dark mode and light mode themes for user preference and accessibility.
+
+## Prerequisites
+
+- Python 3.12+
+- Node.js 18+
+- npm or yarn
+- Git
+
+## Installation
 
 ### 1. Clone the project
 ```bash
@@ -50,7 +84,7 @@ cd frontend
 npm install
 ```
 
-## 🚀 Startup
+## Startup
 
 ### Automatic startup (recommended)
 ```bash
@@ -72,48 +106,48 @@ cd frontend
 npm start
 ```
 
-## 📊 Access
+## Access
 
-- **Dashboard** : http://localhost:3000
-- **Backend API** : http://localhost:8000
-- **API Documentation** : http://localhost:8000/docs
+- Dashboard: http://localhost:3000
+- Backend API: http://localhost:8000
+- API Documentation: http://localhost:8000/docs
 
-## 🛑 Stop
+## Stop
 
 ```bash
 ./stop.sh
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 snmp-supervision0/
 ├── backend/
-│   ├── api/              #API Routes
-│   ├── database/         #DB Configuration
-│   ├── models/           #Data Models
-│   ├── services/         #SNMP Services
-│   │   ├── snmp_base.py      #Common features
-│   │   ├── snmp_server.py    #Server metrics
-│   │   ├── snmp_switch.py    #Switch metrics
-│   │   └── snmp_service.py   #Unified service
-│   ├── main.py          #Entry point
-│   └── requirements.txt  #Python dependencies
+│   ├── api/              # API Routes
+│   ├── database/         # DB Configuration
+│   ├── models/           # Data Models
+│   ├── services/         # SNMP Services
+│   │   ├── snmp_base.py      # Common features
+│   │   ├── snmp_server.py    # Server metrics
+│   │   ├── snmp_switch.py    # Switch metrics
+│   │   └── snmp_service.py   # Unified service
+│   ├── main.py          # Entry point
+│   └── requirements.txt  # Python dependencies
 ├── frontend/
 │   ├── src/
-│   │   ├── components/   #React components
-│   │   └── services/     #API services
+│   │   ├── components/   # React components
+│   │   └── services/     # API services
 │   ├── package.json
 │   └── tsconfig.json
-├── start.sh             #Startup script
-├── stop.sh              #Stop script
+├── start.sh             # Startup script
+├── stop.sh              # Stop script
 └── README.md
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment variables
-Create a `.env` file in the `backend/` folder :
+Create a `.env` file in the `backend/` folder:
 
 ```env
 DATABASE_URL=sqlite:///./snmp_supervision.db
@@ -125,26 +159,26 @@ SMTP_PASSWORD=your-app-password
 ```
 
 ### SNMP Configuration
-- **Community string** : Default "public"
-- **SNMP Version** : SNMPv2c
-- **Timeout** : 1 second
-- **Retries** : 0 (for speed)
+- Community string: Default "public"
+- SNMP Version: SNMPv2c
+- Timeout: 1 second
+- Retries: 0 (for speed)
 
-## 📈 Available Metrics
+## Available Metrics
 
 ### Servers
-- **CPU** : Usage percentage with delta calculation
-- **Memory** : Total, used, free (KB, MB, GB)
-- **Disk** : Total space, used, free
-- **Equipment name** : Automatic detection
+- CPU: Usage percentage with delta calculation
+- Memory: Total, used, free (KB, MB, GB)
+- Disk: Total space, used, free
+- Equipment name: Automatic detection
 
 ### Switches
-- **Interfaces** : Status, speed, traffic
-- **Connected devices** : MAC addresses, ports, interfaces
-- **Traffic** : Octets in/out, errors, throughput
-- **Topology** : Automatic discovery
+- Interfaces: Status, speed, traffic
+- Connected devices: MAC addresses, ports, interfaces
+- Traffic: Octets in/out, errors, throughput
+- Topology: Automatic discovery
 
-## 🔍 API Endpoints
+## API Endpoints
 
 ### Equipment
 - `GET /api/v1/equipment` - Equipment list
@@ -162,36 +196,33 @@ SMTP_PASSWORD=your-app-password
 - `GET /api/v1/test/connectivity/{ip}` - Connectivity test
 - `GET /health` - API status
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Backend won't start
 1. Check Python 3.12+
 2. Activate virtual environment
-3. Install dependencies : `pip install -r requirements.txt`
+3. Install dependencies: `pip install -r requirements.txt`
 4. Check port 8000 is free
 
 ### Frontend won't start
 1. Check Node.js 18+
-2. Install dependencies : `npm install`
+2. Install dependencies: `npm install`
 3. Check port 3000 is free
 
 ### SNMP errors
 1. Check network connectivity
 2. Check community strings
 3. Check SNMP permissions on equipment
-4. Check logs : `tail -f snmp_debug.log`
+4. Check logs: `tail -f snmp_debug.log`
 
-## 📝 Logs
+## Logs
 
-- **Backend** : `backend.log`
-- **SNMP** : `snmp_debug.log`
-- **Frontend** : Browser console
+- Backend: `backend.log`
+- SNMP: `snmp_debug.log`
+- Frontend: Browser console
 
-## 📄 License
+## License
 
 This project is under MIT license.
 
-
 **SNMP Supervision** - Modern and intuitive network monitoring
-
-# SNMP-Supervision
