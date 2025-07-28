@@ -45,6 +45,8 @@ Equipment management interface for adding, editing, and configuring SNMP devices
 ![Reports Generation](Screenshots/Reports.png)
 Automated report generation system for performance analysis and historical data visualization.
 
+**Example Report**: [Download ReportExample.pdf](ReportExample.pdf)
+
 ### Email Notifications
 ![Email Notifications](Screenshots/Mail.png)
 Email alert system configuration and management for critical event notifications.
