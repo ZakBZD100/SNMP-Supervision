@@ -10,7 +10,7 @@ from datetime import datetime
 from typing import Dict, List, Optional, Any
 from dotenv import load_dotenv
 
-# Charger les variables d'environnement
+#load environment variables
 if os.path.exists("config.env"):
     load_dotenv("config.env")
 else:
@@ -58,7 +58,7 @@ class EmailService:
                     }
                 }
                 
-            # Créer la connexion SMTP
+            #create SMTP connection
             if self.use_ssl:
                 server = smtplib.SMTP_SSL(self.smtp_server, self.smtp_port)
             else:
@@ -66,7 +66,7 @@ class EmailService:
                 if self.use_tls:
                     server.starttls()
                     
-            # Authentification
+            #authentication
             server.login(self.smtp_username, self.smtp_password)
             server.quit()
             
@@ -127,7 +127,7 @@ class EmailService:
             message_text = alert_data.get('message', 'Alerte SNMP')
             created_at = alert_data.get('created_at', datetime.now().strftime('%d/%m/%Y à %H:%M:%S'))
             
-            # Déterminer la couleur selon la sévérité
+            #determine color based on severity
             severity_colors = {
                 'info': '#2196F3',
                 'warning': '#FF9800', 
@@ -141,7 +141,7 @@ class EmailService:
             message["To"] = user_email
             message["Subject"] = f"Alerte {severity.upper()} - {equipment_name}"
             
-            # Corps HTML
+            #HTML body
             html_body = f"""
             <html>
             <head>
@@ -240,7 +240,7 @@ class EmailService:
             
             message.attach(MIMEText(body, "plain"))
             
-            # Ajouter le rapport en pièce jointe si disponible
+            #add report as attachment if available
             pdf_path = report_data.get('pdf_path')
             if pdf_path and os.path.exists(pdf_path):
                 with open(pdf_path, "rb") as attachment:
@@ -269,7 +269,7 @@ class EmailService:
             message["To"] = self.to_email
             message["Subject"] = "📋 Résumé quotidien - SNMP Supervision"
             
-            # Préparer le contenu du résumé
+            #prepare summary content
             total_equipments = summary_data.get('total_equipments', 0)
             online_equipments = summary_data.get('online_equipments', 0)
             total_alerts = summary_data.get('total_alerts', 0)
@@ -311,7 +311,7 @@ class EmailService:
                 logger.error("Configuration SMTP incomplète")
                 return False
                 
-            # Créer la connexion SMTP
+            #create SMTP connection
             if self.use_ssl:
                 server = smtplib.SMTP_SSL(self.smtp_server, self.smtp_port)
             else:
@@ -319,10 +319,10 @@ class EmailService:
                 if self.use_tls:
                     server.starttls()
                     
-            # Authentification
+            #authentication
             server.login(self.smtp_username, self.smtp_password)
             
-            # Envoyer l'email
+            #send email
             text = message.as_string()
             server.sendmail(self.from_email, message["To"], text)
             server.quit()

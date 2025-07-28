@@ -134,7 +134,7 @@ class SNMPServer(SNMPBase):
             results = {}
             errors = {}
             
-            # Get basic metrics
+            #get basic metrics
             for key, oid in oids.items():
                 try:
                     result = session.get(oid)
@@ -147,21 +147,21 @@ class SNMPServer(SNMPBase):
                     results[key] = None
                     errors[key] = str(e)
             
-            # Calculate CPU with correct delta
+            #calculate CPU with correct delta
             try:
                 cpu_percent = self._get_cpu_percent(ip, community)
             except Exception as e:
                 errors['cpu_calc'] = str(e)
                 cpu_percent = 0
             
-            # Calculate memory correctly (in KB) with detailed values
+            #calculate memory correctly (in KB) with detailed values
             try:
                 mem_total_kb = int(results['mem_total'] or 0)
                 mem_free_kb = int(results['mem_free'] or 0)
                 mem_used_kb = mem_total_kb - mem_free_kb
                 memory_percent = (mem_used_kb / mem_total_kb * 100) if mem_total_kb > 0 else 0
                 
-                # Convert to MB and GB for display
+                #convert to MB and GB for display
                 mem_total_mb = mem_total_kb / 1024
                 mem_used_mb = mem_used_kb / 1024
                 mem_free_mb = mem_free_kb / 1024
@@ -183,12 +183,12 @@ class SNMPServer(SNMPBase):
                 mem_used_gb = 0
                 mem_free_gb = 0
             
-            # Get disk metrics
+            #get disk metrics
             try:
                 disk_total_bytes, disk_used_bytes, disk_path = self._get_main_disk(ip, community)
                 disk_percent = (disk_used_bytes / disk_total_bytes * 100) if disk_total_bytes > 0 else 0
                 
-                # Convert to KB, MB, GB for display
+                #convert to KB, MB, GB for display
                 disk_total_kb = disk_total_bytes / 1024
                 disk_used_kb = disk_used_bytes / 1024
                 disk_free_kb = disk_total_kb - disk_used_kb
@@ -218,7 +218,7 @@ class SNMPServer(SNMPBase):
                 disk_free_gb = 0
                 disk_path = ""
             
-            # Get real equipment name
+            #get real equipment name
             try:
                 equipment_name = self.get_equipment_name(ip, community)
             except Exception as e:
@@ -233,7 +233,7 @@ class SNMPServer(SNMPBase):
                     'memory_percent': memory_percent,
                     'disk_percent': disk_percent,
                     'system_name': equipment_name,
-                    # Detailed values for memory
+                    #detailed values for memory
                     'memory_total_kb': mem_total_kb,
                     'memory_used_kb': mem_used_kb,
                     'memory_free_kb': mem_free_kb,
@@ -243,7 +243,7 @@ class SNMPServer(SNMPBase):
                     'memory_total_gb': round(mem_total_gb, 2),
                     'memory_used_gb': round(mem_used_gb, 2),
                     'memory_free_gb': round(mem_free_gb, 2),
-                    # Detailed values for disk
+                    #detailed values for disk
                     'disk_total_bytes': disk_total_bytes,
                     'disk_used_bytes': disk_used_bytes,
                     'disk_free_bytes': disk_total_bytes - disk_used_bytes,

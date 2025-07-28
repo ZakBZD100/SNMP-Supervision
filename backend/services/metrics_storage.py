@@ -13,16 +13,16 @@ class MetricsStorage:
         self.ensure_storage_dir()
         
     def ensure_storage_dir(self):
-        """Crée le répertoire de stockage s'il n'existe pas"""
+        """creates the storage directory if it doesn't exist"""
         if not os.path.exists(self.storage_dir):
             os.makedirs(self.storage_dir)
             
     def get_equipment_file(self, equipment_id: int) -> str:
-        """Retourne le chemin du fichier de stockage pour un équipement"""
+        """returns the storage file path for an equipment"""
         return os.path.join(self.storage_dir, f"equipment_{equipment_id}.json")
         
     def save_metrics(self, equipment_id: int, metrics: Dict, timestamp: Optional[float] = None):
-        """Sauvegarde les métriques d'un équipement avec timestamp"""
+        """saves equipment metrics with timestamp"""
         if timestamp is None:
             timestamp = time.time()
             
@@ -48,12 +48,12 @@ class MetricsStorage:
         try:
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(existing_data, f, indent=2, ensure_ascii=False)
-            logger.debug(f"Métriques sauvegardées pour équipement {equipment_id}")
+            logger.debug(f"metrics saved for equipment {equipment_id}")
         except Exception as e:
-            logger.error(f"Erreur lors de la sauvegarde des métriques pour équipement {equipment_id}: {e}")
+            logger.error(f"error saving metrics for equipment {equipment_id}: {e}")
             
     def load_metrics(self, equipment_id: int) -> List[Dict]:
-        """Charge les métriques historiques d'un équipement"""
+        """loads historical metrics for an equipment"""
         file_path = self.get_equipment_file(equipment_id)
         
         if not os.path.exists(file_path):
@@ -64,11 +64,11 @@ class MetricsStorage:
                 data = json.load(f)
                 return data if isinstance(data, list) else []
         except Exception as e:
-            logger.error(f"Erreur lors du chargement des métriques pour équipement {equipment_id}: {e}")
+            logger.error(f"error loading metrics for equipment {equipment_id}: {e}")
             return []
             
     def get_recent_metrics(self, equipment_id: int, hours: int = 24) -> List[Dict]:
-        """Récupère les métriques récentes (dernières X heures)"""
+        """gets recent metrics (last X hours)"""
         all_metrics = self.load_metrics(equipment_id)
         
         if not all_metrics:
@@ -84,7 +84,7 @@ class MetricsStorage:
         return recent_metrics
         
     def get_metrics_for_chart(self, equipment_id: int, hours: int = 24) -> Dict:
-        """Prépare les données pour les graphiques"""
+        """prepares data for charts"""
         recent_metrics = self.get_recent_metrics(equipment_id, hours)
         
         if not recent_metrics:
@@ -142,7 +142,7 @@ class MetricsStorage:
             #Interfaces (for switches)
             if 'interfaces' in metrics:
                 interfaces_values.append(len(metrics['interfaces']))
-                # Ajout : stocker l'état complet des interfaces pour chaque timestamp
+                #addition: store complete interface state for each timestamp
                 interfaces_states.append(metrics['interfaces'])
             else:
                 interfaces_values.append(0)
@@ -170,7 +170,7 @@ class MetricsStorage:
         }
         
     def cleanup_old_data(self, days: int = 7):
-        """Nettoie les anciennes données (plus de X jours)"""
+        """cleans old data (more than X days)"""
         cutoff_time = time.time() - (days * 24 * 3600)
         
         for filename in os.listdir(self.storage_dir):
@@ -187,14 +187,14 @@ class MetricsStorage:
                         if entry.get('timestamp', 0) >= cutoff_time
                     ]
                     
-                    # Sauvegarder les données filtrées
+                    #save filtered data
                     with open(file_path, 'w', encoding='utf-8') as f:
                         json.dump(filtered_data, f, indent=2, ensure_ascii=False)
                         
-                    logger.info(f"Données nettoyées pour {filename}: {len(data)} -> {len(filtered_data)} entrées")
+                    logger.info(f"data cleaned for {filename}: {len(data)} -> {len(filtered_data)} entries")
                     
                 except Exception as e:
-                    logger.error(f"Erreur lors du nettoyage de {filename}: {e}")
+                    logger.error(f"error cleaning {filename}: {e}")
 
-# Instance globale du stockage de métriques
+#global metrics storage instance
 metrics_storage = MetricsStorage() 

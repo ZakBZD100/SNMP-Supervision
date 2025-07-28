@@ -356,7 +356,7 @@ def get_alerts_stats():
             }
         }
     
-    # Statistiques par niveau
+    #statistics by level
     by_level = {}
     by_type = {}
     by_date = {}
@@ -399,7 +399,7 @@ def get_alerts_stats():
         }
     }
 
-# Ajout : génération d'alertes critiques en temps réel à chaque appel
+#addition: real-time critical alert generation on each call
 @router.api_route("/metrics-check", methods=["GET", "POST"])
 def check_metrics_and_alert():
     """Vérifie les métriques de tous les équipements et génère/envoie des alertes critiques si besoin."""
@@ -413,24 +413,24 @@ def check_metrics_and_alert():
             metrics = snmp_service.get_equipment_metrics(eq)
             if not metrics:
                 continue
-            # Serveur : CPU > 90%
+            #server: CPU > 90%
             if eq.type == 'server' and metrics.get('cpu_usage', 0) > 90:
                 alerts.append({
                     'type': 'cpu', 'level': 'critical', 'message': f'CPU > 90% sur {eq.name}', 'equipment': eq.name
                 })
-            # Serveur : RAM > 90%
+            #server: RAM > 90%
             if eq.type == 'server' and metrics.get('memory_usage', 0) > 90:
                 alerts.append({
                     'type': 'memory', 'level': 'critical', 'message': f'RAM > 90% sur {eq.name}', 'equipment': eq.name
                 })
-            # Switch : interface down (mettre en info pour éviter le spam)
+            #switch: interface down (put as info to avoid spam)
             if eq.type == 'switch' and 'interfaces' in metrics:
                 for iface in metrics['interfaces']:
                     if iface.get('oper_status') == 2:
                         alerts.append({
                             'type': 'interface', 'level': 'info', 'message': f"Interface {iface.get('name')} DOWN sur {eq.name}", 'equipment': eq.name
                         })
-        # Enregistrer et envoyer les alertes critiques
+        #save and send critical alerts
         if alerts:
             load_alerts_from_file()
             global alert_id_counter

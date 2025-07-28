@@ -24,7 +24,7 @@ class SNMPBase:
             if isinstance(value, (int, float)):
                 return int(value)
             if isinstance(value, str):
-                # Try to convert to integer
+                #try to convert to integer
                 return int(value.strip())
             return 0
         except (ValueError, TypeError):
@@ -95,7 +95,7 @@ class SNMPBase:
             from easysnmp import Session
             session = Session(hostname=ip, community=community, version=2, timeout=3, retries=1)
             
-            #simple test with sysDescr
+            #simple test with sysdescr
             result = session.get('1.3.6.1.2.1.1.1.0')
             if result and result.value:
                 logger.info(f"SNMP connectivity OK for {ip}")
@@ -119,7 +119,7 @@ class SNMPBase:
             
             #try sysName first
             try:
-                result = session.get('1.3.6.1.2.1.1.5.0')  # sysName
+                result = session.get('1.3.6.1.2.1.1.5.0')  #sysname
                 if result and result.value:
                     return self._safe_str(result.value)
             except:
@@ -127,7 +127,7 @@ class SNMPBase:
             
             #fallback to sysDescr
             try:
-                result = session.get('1.3.6.1.2.1.1.1.0')  # sysDescr
+                result = session.get('1.3.6.1.2.1.1.1.0')  #sysdescr
                 if result and result.value:
                     return self._safe_str(result.value)
             except:

@@ -13,10 +13,10 @@ class SNMPSwitch(SNMPBase):
             
             #alternative OIDs for MAC addresses
             alternative_oids = [
-                '1.3.6.1.2.1.17.4.3.1.1',  # dot1dTpFdbAddress (BRIDGE-MIB)
-                '1.3.6.1.2.1.17.7.1.2.2.1.2',  # dot1qTpFdbAddress (Q-BRIDGE-MIB)
-                '1.3.6.1.4.1.9.9.46.1.2.1.1.2',  # cdpCacheDeviceAddress (Cisco)
-                '1.3.6.1.4.1.9.9.23.1.2.1.1.6',  # cdpCacheDevicePortId (Cisco)
+                '1.3.6.1.2.1.17.4.3.1.1',  #dot1dtpfdbaddress (bridge-mib)
+                '1.3.6.1.2.1.17.7.1.2.2.1.2',  #dot1qtpfdbaddress (q-bridge-mib)
+                '1.3.6.1.4.1.9.9.46.1.2.1.1.2',  #cdpcachedeviceaddress (cisco)
+                '1.3.6.1.4.1.9.9.23.1.2.1.1.6',  #cdpcachedeviceportid (cisco)
             ]
             
             connected_devices = []
@@ -100,17 +100,17 @@ class SNMPSwitch(SNMPBase):
                     try:
                         mac_bytes = bytes(int(x, 16) for x in mac_result.value.split())
                     except Exception:
-                        # If it's a byte string, convert each char to int
+                        #if it's a byte string, convert each char to int
                         mac_bytes = bytes([ord(c) for c in mac_result.value])
                 else:
                     mac_bytes = b''
                 mac_address = ':'.join(f'{b:02X}' for b in mac_bytes[:6]) if mac_bytes else str(mac_result.value)
-                # Find associated port
+                #find associated port
                 port_result = next((p for p in mac_ports if p.oid.endswith(mac_index)), None)
                 port_number = int(port_result.value) if port_result and port_result.value else 0
-                # Find ifIndex
+                #find ifindex
                 if_index = port_to_ifindex.get(port_number, None)
-                # Find interface name
+                #find interface name
                 interface_name = ifindex_to_name.get(if_index, f'Port {port_number}') if if_index else f'Port {port_number}'
                 device_info = {
                     'mac_address': mac_address,
@@ -149,11 +149,11 @@ class SNMPSwitch(SNMPBase):
             return cached
 
         try:
-            # Local import to avoid memory issues
+            #local import to avoid memory issues
             from easysnmp import Session
             session = Session(hostname=ip, community=community, version=2, timeout=1, retries=0)
             
-            # OIDs for switch interfaces
+            #OIDs for switch interfaces
             interface_oids = {
                 'if_index': '1.3.6.1.2.1.2.2.1.1',
                 'if_descr': '1.3.6.1.2.1.2.2.1.2',
@@ -166,7 +166,7 @@ class SNMPSwitch(SNMPBase):
                 'if_out_errors': '1.3.6.1.2.1.2.2.1.20'
             }
             
-            # System OIDs
+            #system OIDs
             system_oids = {
                 'system_name': '1.3.6.1.2.1.1.5.0',
                 'system_uptime': '1.3.6.1.2.1.1.3.0'
@@ -175,7 +175,7 @@ class SNMPSwitch(SNMPBase):
             interfaces = []
             errors = {}
             
-            # Get system information
+            #get system information
             system_info = {}
             for key, oid in system_oids.items():
                 try:
@@ -189,16 +189,16 @@ class SNMPSwitch(SNMPBase):
                     system_info[key] = None
                     errors[f'system_{key}'] = str(e)
             
-            # Get interfaces
+            #get interfaces
             try:
-                # Get interface indices
+                #get interface indices
                 if_indices = session.walk(interface_oids['if_index'])
                 
                 for if_index_result in if_indices:
                     try:
                         if_index = int(if_index_result.value)
                         
-                        # Get interface information
+                        #get interface information
                         interface_data = {}
                         
                         for key, oid in interface_oids.items():
@@ -216,17 +216,17 @@ class SNMPSwitch(SNMPBase):
                                 interface_data[key] = None
                                 errors[f'interface_{if_index}_{key}'] = str(e)
                         
-                        # Determine statuses
+                        #determine statuses
                         admin_status = int(interface_data.get('if_admin_status', 0))
                         oper_status = int(interface_data.get('if_oper_status', 0))
                         
                         admin_status_text = "up" if admin_status == 1 else "down"
                         oper_status_text = "up" if oper_status == 1 else "down"
                         
-                        # Get speed
+                        #get speed
                         speed = int(interface_data.get('if_speed', 0))
                         
-                        # Get traffic
+                        #get traffic
                         in_octets = int(interface_data.get('if_in_octets', 0))
                         out_octets = int(interface_data.get('if_out_octets', 0))
                         in_errors = int(interface_data.get('if_in_errors', 0))
@@ -257,7 +257,7 @@ class SNMPSwitch(SNMPBase):
             except Exception as e:
                 errors['interfaces_walk'] = str(e)
             
-            # Get connected devices
+            #get connected devices
             connected_devices = self.get_connected_devices(ip, community)
             
             result = {
@@ -271,7 +271,7 @@ class SNMPSwitch(SNMPBase):
                 'timestamp': time.time()
             }
             
-            # Cache
+            #cache
             self._cache_data(cache_key, result)
             
             return result
@@ -294,11 +294,11 @@ class SNMPSwitch(SNMPBase):
     def get_interface_traffic_realtime(self, ip: str, community: str, interface_index: int) -> Optional[Dict]:
         """Gets real-time traffic for a specific interface"""
         try:
-            # Local import to avoid memory issues
+            #local import to avoid memory issues
             from easysnmp import Session
             session = Session(hostname=ip, community=community, version=2, timeout=1, retries=0)
             
-            # OIDs for traffic
+            #OIDs for traffic
             traffic_oids = {
                 'if_in_octets': f'1.3.6.1.2.1.2.2.1.10.{interface_index}',
                 'if_out_octets': f'1.3.6.1.2.1.2.2.1.16.{interface_index}',
