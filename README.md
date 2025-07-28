@@ -89,24 +89,24 @@ npm start
 ```
 snmp-supervision0/
 ├── backend/
-│   ├── api/              # API Routes
-│   ├── database/         # DB Configuration
-│   ├── models/           # Data Models
-│   ├── services/         # SNMP Services
-│   │   ├── snmp_base.py      # Common features
-│   │   ├── snmp_server.py    # Server metrics
-│   │   ├── snmp_switch.py    # Switch metrics
-│   │   └── snmp_service.py   # Unified service
-│   ├── main.py          # Entry point
-│   └── requirements.txt  # Python dependencies
+│   ├── api/              #API Routes
+│   ├── database/         #DB Configuration
+│   ├── models/           #Data Models
+│   ├── services/         #SNMP Services
+│   │   ├── snmp_base.py      #Common features
+│   │   ├── snmp_server.py    #Server metrics
+│   │   ├── snmp_switch.py    #Switch metrics
+│   │   └── snmp_service.py   #Unified service
+│   ├── main.py          #Entry point
+│   └── requirements.txt  #Python dependencies
 ├── frontend/
 │   ├── src/
-│   │   ├── components/   # React components
-│   │   └── services/     # API services
+│   │   ├── components/   #React components
+│   │   └── services/     #API services
 │   ├── package.json
 │   └── tsconfig.json
-├── start.sh             # Startup script
-├── stop.sh              # Stop script
+├── start.sh             #Startup script
+├── stop.sh              #Stop script
 └── README.md
 ```
 
@@ -187,26 +187,10 @@ SMTP_PASSWORD=your-app-password
 - **SNMP** : `snmp_debug.log`
 - **Frontend** : Browser console
 
-## 🤝 Contribution
-
-1. Fork the project
-2. Create a feature branch
-3. Commit changes
-4. Push to branch
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is under MIT license.
 
-## 🆘 Support
-
-For any questions or issues :
-1. Check documentation
-2. Check logs
-3. Open an issue on GitHub
-
----
 
 **SNMP Supervision** - Modern and intuitive network monitoring
 
