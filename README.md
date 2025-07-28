@@ -45,7 +45,9 @@ Equipment management interface for adding, editing, and configuring SNMP devices
 ![Reports Generation](Screenshots/Reports.png)
 Automated report generation system for performance analysis and historical data visualization.
 
-**Example Report**: [Download ReportExample.pdf](ReportExample.pdf)
+### Example Report
+
+[Download ReportExample.pdf](ReportExample.pdf)
 
 ### Email Notifications
 ![Email Notifications](Screenshots/Mail.png)
@@ -125,24 +127,24 @@ npm start
 ```
 snmp-supervision0/
 ├── backend/
-│   ├── api/              # API Routes
-│   ├── database/         # DB Configuration
-│   ├── models/           # Data Models
-│   ├── services/         # SNMP Services
-│   │   ├── snmp_base.py      # Common features
-│   │   ├── snmp_server.py    # Server metrics
-│   │   ├── snmp_switch.py    # Switch metrics
-│   │   └── snmp_service.py   # Unified service
-│   ├── main.py          # Entry point
-│   └── requirements.txt  # Python dependencies
+│   ├── api/              #API Routes
+│   ├── database/         #DB Configuration
+│   ├── models/           #Data Models
+│   ├── services/         #SNMP Services
+│   │   ├── snmp_base.py      #Common features
+│   │   ├── snmp_server.py    #Server metrics
+│   │   ├── snmp_switch.py    #Switch metrics
+│   │   └── snmp_service.py   #Unified service
+│   ├── main.py          #Entry point
+│   └── requirements.txt  #Python dependencies
 ├── frontend/
 │   ├── src/
-│   │   ├── components/   # React components
-│   │   └── services/     # API services
+│   │   ├── components/   #React components
+│   │   └── services/     #API services
 │   ├── package.json
 │   └── tsconfig.json
-├── start.sh             # Startup script
-├── stop.sh              # Stop script
+├── start.sh             #Startup script
+├── stop.sh              #Stop script
 └── README.md
 ```
 
