@@ -1,0 +1,1042 @@
+[
+  {
+    "timestamp": 1753108601.5794733,
+    "datetime": "2025-07-21T16:36:41.579473",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108601.534072
+    }
+  },
+  {
+    "timestamp": 1753108601.889869,
+    "datetime": "2025-07-21T16:36:41.889869",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108601.534072
+    }
+  },
+  {
+    "timestamp": 1753108602.056461,
+    "datetime": "2025-07-21T16:36:42.056461",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108601.534072
+    }
+  },
+  {
+    "timestamp": 1753108602.2231257,
+    "datetime": "2025-07-21T16:36:42.223126",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108601.534072
+    }
+  },
+  {
+    "timestamp": 1753108659.5112872,
+    "datetime": "2025-07-21T16:37:39.511287",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.3680776309185174,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108659.4638386
+    }
+  },
+  {
+    "timestamp": 1753108661.0565023,
+    "datetime": "2025-07-21T16:37:41.056502",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.3680776309185174,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108659.4638386
+    }
+  },
+  {
+    "timestamp": 1753108667.814671,
+    "datetime": "2025-07-21T16:37:47.814671",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.2004008016032066,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108667.7679265
+    }
+  },
+  {
+    "timestamp": 1753108676.476846,
+    "datetime": "2025-07-21T16:37:56.476846",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.20080321285140812,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108676.4291263
+    }
+  },
+  {
+    "timestamp": 1753108778.989284,
+    "datetime": "2025-07-21T16:39:38.989284",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.4771447657219152,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14056552155849,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794770432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108778.9366152
+    }
+  },
+  {
+    "timestamp": 1753108908.8391314,
+    "datetime": "2025-07-21T16:41:48.839131",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.35466461063994315,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108908.7861047
+    }
+  },
+  {
+    "timestamp": 1753108963.5422387,
+    "datetime": "2025-07-21T16:42:43.542239",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.2915451895043719,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108963.4905427
+    }
+  },
+  {
+    "timestamp": 1753108975.5644486,
+    "datetime": "2025-07-21T16:42:55.564449",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.30090270812437314,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108975.5167484
+    }
+  },
+  {
+    "timestamp": 1753108999.7122753,
+    "datetime": "2025-07-21T16:43:19.712275",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.3607214428857697,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753108999.663644
+    }
+  },
+  {
+    "timestamp": 1753109060.0533764,
+    "datetime": "2025-07-21T16:44:20.053376",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.31746031746031633,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109059.9965055
+    }
+  },
+  {
+    "timestamp": 1753109069.2263188,
+    "datetime": "2025-07-21T16:44:29.226319",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.30090270812437314,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109069.1808698
+    }
+  },
+  {
+    "timestamp": 1753109079.3233428,
+    "datetime": "2025-07-21T16:44:39.323343",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.30060120240480437,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109079.2630696
+    }
+  },
+  {
+    "timestamp": 1753109089.2663343,
+    "datetime": "2025-07-21T16:44:49.266334",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.30060120240480437,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109089.2158692
+    }
+  },
+  {
+    "timestamp": 1753109093.733417,
+    "datetime": "2025-07-21T16:44:53.733417",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.40160642570281624,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109093.681576
+    }
+  },
+  {
+    "timestamp": 1753109099.3390777,
+    "datetime": "2025-07-21T16:44:59.339078",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.4008016032064132,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109099.28571
+    }
+  },
+  {
+    "timestamp": 1753109109.2711365,
+    "datetime": "2025-07-21T16:45:09.271137",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.7021063189568744,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109109.2273715
+    }
+  },
+  {
+    "timestamp": 1753109119.3568115,
+    "datetime": "2025-07-21T16:45:19.356812",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.3012048192771122,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140581132057804,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794774528,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109119.3047688
+    }
+  },
+  {
+    "timestamp": 1753109129.3364284,
+    "datetime": "2025-07-21T16:45:29.336428",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.700700700700696,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140596742557115,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794778624,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109129.2899585
+    }
+  },
+  {
+    "timestamp": 1753109139.3357737,
+    "datetime": "2025-07-21T16:45:39.335774",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.3012048192771122,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140596742557115,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794778624,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109139.288515
+    }
+  },
+  {
+    "timestamp": 1753109149.0190613,
+    "datetime": "2025-07-21T16:45:49.019061",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.30090270812437314,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140596742557115,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794778624,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109148.9691966
+    }
+  },
+  {
+    "timestamp": 1753109186.2042089,
+    "datetime": "2025-07-21T16:46:26.204209",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.34344590726960167,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140596742557115,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794778624,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109186.160433
+    }
+  },
+  {
+    "timestamp": 1753109224.989342,
+    "datetime": "2025-07-21T16:47:04.989342",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.3008272750062657,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140596742557115,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794778624,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753109224.9387307
+    }
+  },
+  {
+    "timestamp": 1753110292.4437056,
+    "datetime": "2025-07-21T17:04:52.443706",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140674795053656,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794799104,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753110292.3946824
+    }
+  },
+  {
+    "timestamp": 1753110402.6998582,
+    "datetime": "2025-07-21T17:06:42.699858",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.31893566611992386,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14069040555297,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794803200,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753110402.6447752
+    }
+  },
+  {
+    "timestamp": 1753110946.4278932,
+    "datetime": "2025-07-21T17:15:46.427893",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14072162655159,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794811392,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753110946.3800576
+    }
+  },
+  {
+    "timestamp": 1753111154.5706425,
+    "datetime": "2025-07-21T17:19:14.570642",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.6000000000000005,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.14073723705089,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794815488,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753111154.5196905
+    }
+  },
+  {
+    "timestamp": 1753111255.3479397,
+    "datetime": "2025-07-21T17:20:55.347940",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.37224396296650086,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140768458049514,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794823680,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753111255.294742
+    }
+  },
+  {
+    "timestamp": 1753111703.6943038,
+    "datetime": "2025-07-21T17:28:23.694304",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.38971863666058537,
+      "memory_usage": 93.00777046745894,
+      "disk_usage": 41.140784068548825,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1918902272,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10794827776,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753111703.641959
+    }
+  },
+  {
+    "timestamp": 1753262599.4440255,
+    "datetime": "2025-07-23T11:23:19.444026",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 53.44231311370612,
+      "disk_usage": 41.155816979384,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1102602240,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10798772224,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753262599.3978033
+    }
+  },
+  {
+    "timestamp": 1753262605.461947,
+    "datetime": "2025-07-23T11:23:25.461947",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.20080321285140812,
+      "memory_usage": 53.44231311370612,
+      "disk_usage": 41.155816979384,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1102602240,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10798772224,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753262605.4095814
+    }
+  },
+  {
+    "timestamp": 1753275397.8015187,
+    "datetime": "2025-07-23T14:56:37.801519",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.40000000000000036,
+      "memory_usage": 52.589626406089316,
+      "disk_usage": 41.15689410383636,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1085009920,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799054848,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275397.7588775
+    }
+  },
+  {
+    "timestamp": 1753275712.386862,
+    "datetime": "2025-07-23T15:01:52.386862",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.6768242775294309,
+      "memory_usage": 57.48875327078312,
+      "disk_usage": 41.15694093533428,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1186086912,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799067136,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275712.3351803
+    }
+  },
+  {
+    "timestamp": 1753275721.1478972,
+    "datetime": "2025-07-23T15:02:01.147897",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.4008016032064132,
+      "memory_usage": 57.48875327078312,
+      "disk_usage": 41.15694093533428,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1186086912,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799067136,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275721.0988193
+    }
+  },
+  {
+    "timestamp": 1753275726.9763172,
+    "datetime": "2025-07-23T15:02:06.976317",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.20080321285140812,
+      "memory_usage": 57.48875327078312,
+      "disk_usage": 41.15694093533428,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1186086912,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799067136,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275726.923315
+    }
+  },
+  {
+    "timestamp": 1753275731.2730181,
+    "datetime": "2025-07-23T15:02:11.273018",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.6000000000000005,
+      "memory_usage": 57.48875327078312,
+      "disk_usage": 41.15694093533428,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1186086912,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799067136,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275731.222893
+    }
+  },
+  {
+    "timestamp": 1753275734.1343353,
+    "datetime": "2025-07-23T15:02:14.134335",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.40160642570281624,
+      "memory_usage": 57.48875327078312,
+      "disk_usage": 41.15694093533428,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1186086912,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799067136,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275734.0876718
+    }
+  },
+  {
+    "timestamp": 1753275737.2669115,
+    "datetime": "2025-07-23T15:02:17.266912",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.2004008016032066,
+      "memory_usage": 57.48875327078312,
+      "disk_usage": 41.15694093533428,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1186086912,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799067136,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275737.223667
+    }
+  },
+  {
+    "timestamp": 1753275785.8000984,
+    "datetime": "2025-07-23T15:03:05.800098",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.3117345802716498,
+      "memory_usage": 57.48875327078312,
+      "disk_usage": 41.15694093533428,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1186086912,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799067136,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275785.753367
+    }
+  },
+  {
+    "timestamp": 1753275800.8798225,
+    "datetime": "2025-07-23T15:03:20.879822",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.4005340453938633,
+      "memory_usage": 57.48875327078312,
+      "disk_usage": 41.15694093533428,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1186086912,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799067136,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753275800.8334832
+    }
+  },
+  {
+    "timestamp": 1753276931.152159,
+    "datetime": "2025-07-23T15:22:11.152159",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 52.709538576380474,
+      "disk_usage": 41.15804928078527,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1087483904,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10799357952,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753276931.1034865
+    }
+  },
+  {
+    "timestamp": 1753306582.363074,
+    "datetime": "2025-07-23T23:36:22.363074",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 52.84513462324946,
+      "disk_usage": 41.12600092570261,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1090281472,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10790948864,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753306582.2933497
+    }
+  },
+  {
+    "timestamp": 1753306590.365464,
+    "datetime": "2025-07-23T23:36:30.365464",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.4012036108325012,
+      "memory_usage": 53.44390135437222,
+      "disk_usage": 41.12600092570261,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1102635008,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10790948864,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753306590.298445
+    }
+  },
+  {
+    "timestamp": 1753358393.2823021,
+    "datetime": "2025-07-24T13:59:53.282302",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 81.19939964502821,
+      "disk_usage": 41.09763664845702,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1675276288,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10783506432,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753358393.2381594
+    }
+  },
+  {
+    "timestamp": 1753557724.2920158,
+    "datetime": "2025-07-26T21:22:04.292016",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0,
+      "memory_usage": 58.05257870725151,
+      "disk_usage": 41.09879182540593,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1197719552,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10783809536,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753557724.2242162
+    }
+  },
+  {
+    "timestamp": 1753557727.213842,
+    "datetime": "2025-07-26T21:22:07.213842",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.40160642570281624,
+      "memory_usage": 58.05257870725151,
+      "disk_usage": 41.09879182540593,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1197719552,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10783809536,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753557727.1448445
+    }
+  },
+  {
+    "timestamp": 1753557732.1989758,
+    "datetime": "2025-07-26T21:22:12.198976",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.8032128514056214,
+      "memory_usage": 58.05257870725151,
+      "disk_usage": 41.09879182540593,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1197719552,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10783809536,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753557732.1226125
+    }
+  },
+  {
+    "timestamp": 1753557822.4050314,
+    "datetime": "2025-07-26T21:23:42.405031",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.4648705758055982,
+      "memory_usage": 58.05257870725151,
+      "disk_usage": 41.09879182540593,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1197719552,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10783809536,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753557822.3343887
+    }
+  },
+  {
+    "timestamp": 1753557878.210902,
+    "datetime": "2025-07-26T21:24:38.210902",
+    "metrics": {
+      "ip": "192.168.57.3",
+      "community": "public",
+      "cpu_usage": 0.41978463223215634,
+      "memory_usage": 58.05257870725151,
+      "disk_usage": 41.09879182540593,
+      "uptime": 0,
+      "total_memory_bytes": 2063163392,
+      "used_memory_bytes": 1197719552,
+      "total_disk_bytes": 26238750720,
+      "used_disk_bytes": 10783809536,
+      "disk_path": "/",
+      "equipment_name": "ubuntu-server-VirtualBox",
+      "errors": {},
+      "timestamp": 1753557878.1446857
+    }
+  }
+]

@@ -1,0 +1,444 @@
+{
+  "alerts": [
+    {
+      "id": "1",
+      "type": "cpu",
+      "level": "warning",
+      "message": "CPU usage above 80% - Monitoring active",
+      "timestamp": "2025-07-21T15:53:26.851606",
+      "equipment": "Serveur Ubuntu",
+      "date": "21/07/2025",
+      "time": "15:53:26",
+      "email_sent": false,
+      "email_sent_at": null
+    },
+    {
+      "id": "2",
+      "type": "memory",
+      "level": "info",
+      "message": "Memory usage normal - System healthy",
+      "timestamp": "2025-07-21T15:48:26.851606",
+      "equipment": "Switch Cisco",
+      "date": "21/07/2025",
+      "time": "15:48:26",
+      "email_sent": false,
+      "email_sent_at": null
+    },
+    {
+      "id": "3",
+      "type": "disk",
+      "level": "error",
+      "message": "Disk space critical - Immediate action required",
+      "timestamp": "2025-07-21T15:43:26.851606",
+      "equipment": "Serveur Ubuntu",
+      "date": "21/07/2025",
+      "time": "15:43:26",
+      "email_sent": false,
+      "email_sent_at": null
+    },
+    {
+      "id": "4",
+      "type": "network",
+      "level": "warning",
+      "message": "High network traffic detected on interface eth0",
+      "timestamp": "2025-07-21T15:38:26.851606",
+      "equipment": "Switch Cisco",
+      "date": "21/07/2025",
+      "time": "15:38:26",
+      "email_sent": false,
+      "email_sent_at": null
+    },
+    {
+      "id": "5",
+      "type": "interface",
+      "level": "critical",
+      "message": "Interface GigabitEthernet0/1 is down - Network issue",
+      "timestamp": "2025-07-21T15:33:26.851606",
+      "equipment": "Switch Cisco",
+      "date": "21/07/2025",
+      "time": "15:33:26",
+      "email_sent": false,
+      "email_sent_at": null
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "1",
+      "timestamp": "2025-07-21T15:58:42.831301",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "2",
+      "timestamp": "2025-07-21T15:58:42.831313",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/0 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "3",
+      "timestamp": "2025-07-21T15:58:42.831315",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/1 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "4",
+      "timestamp": "2025-07-21T15:58:42.831316",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "5",
+      "timestamp": "2025-07-21T15:58:42.831318",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "6",
+      "timestamp": "2025-07-21T15:58:42.831319",
+      "email_sent": false
+    },
+    {
+      "type": "memory",
+      "level": "critical",
+      "message": "RAM > 90% sur Serveur Ubuntu GNS3",
+      "equipment": "Serveur Ubuntu GNS3",
+      "id": "7",
+      "timestamp": "2025-07-21T15:58:42.831320",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "8",
+      "timestamp": "2025-07-21T15:58:47.477373",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "9",
+      "timestamp": "2025-07-21T15:58:47.477386",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/0 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "10",
+      "timestamp": "2025-07-21T15:58:47.477387",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/1 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "11",
+      "timestamp": "2025-07-21T15:58:47.477389",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "12",
+      "timestamp": "2025-07-21T15:58:47.477390",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "13",
+      "timestamp": "2025-07-21T15:58:47.477391",
+      "email_sent": false
+    },
+    {
+      "type": "memory",
+      "level": "critical",
+      "message": "RAM > 90% sur Serveur Ubuntu GNS3",
+      "equipment": "Serveur Ubuntu GNS3",
+      "id": "14",
+      "timestamp": "2025-07-21T15:58:47.477392",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "15",
+      "timestamp": "2025-07-21T15:58:50.341118",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "16",
+      "timestamp": "2025-07-21T15:58:50.341130",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/0 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "17",
+      "timestamp": "2025-07-21T15:58:50.341132",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/1 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "18",
+      "timestamp": "2025-07-21T15:58:50.341133",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "19",
+      "timestamp": "2025-07-21T15:58:50.341135",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "20",
+      "timestamp": "2025-07-21T15:58:50.341136",
+      "email_sent": false
+    },
+    {
+      "type": "memory",
+      "level": "critical",
+      "message": "RAM > 90% sur Serveur Ubuntu GNS3",
+      "equipment": "Serveur Ubuntu GNS3",
+      "id": "21",
+      "timestamp": "2025-07-21T15:58:50.341137",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "22",
+      "timestamp": "2025-07-21T15:58:51.265115",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "23",
+      "timestamp": "2025-07-21T15:58:51.265125",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/0 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "24",
+      "timestamp": "2025-07-21T15:58:51.265126",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/1 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "25",
+      "timestamp": "2025-07-21T15:58:51.265127",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "26",
+      "timestamp": "2025-07-21T15:58:51.265128",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "27",
+      "timestamp": "2025-07-21T15:58:51.265129",
+      "email_sent": false
+    },
+    {
+      "type": "memory",
+      "level": "critical",
+      "message": "RAM > 90% sur Serveur Ubuntu GNS3",
+      "equipment": "Serveur Ubuntu GNS3",
+      "id": "28",
+      "timestamp": "2025-07-21T15:58:51.265130",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "29",
+      "timestamp": "2025-07-21T15:59:20.513325",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "30",
+      "timestamp": "2025-07-21T15:59:20.513335",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/0 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "31",
+      "timestamp": "2025-07-21T15:59:20.513336",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/1 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "32",
+      "timestamp": "2025-07-21T15:59:20.513338",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "33",
+      "timestamp": "2025-07-21T15:59:20.513339",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "34",
+      "timestamp": "2025-07-21T15:59:20.513340",
+      "email_sent": false
+    },
+    {
+      "type": "memory",
+      "level": "critical",
+      "message": "RAM > 90% sur Serveur Ubuntu GNS3",
+      "equipment": "Serveur Ubuntu GNS3",
+      "id": "35",
+      "timestamp": "2025-07-21T15:59:20.513342",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "36",
+      "timestamp": "2025-07-21T15:59:50.525037",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet0/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "37",
+      "timestamp": "2025-07-21T15:59:50.525052",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/0 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "38",
+      "timestamp": "2025-07-21T15:59:50.525054",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/1 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "39",
+      "timestamp": "2025-07-21T15:59:50.525057",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/2 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "40",
+      "timestamp": "2025-07-21T15:59:50.525058",
+      "email_sent": false
+    },
+    {
+      "type": "interface",
+      "level": "info",
+      "message": "Interface GigabitEthernet1/3 DOWN sur Switch Cisco",
+      "equipment": "Switch Cisco",
+      "id": "41",
+      "timestamp": "2025-07-21T15:59:50.525059",
+      "email_sent": false
+    },
+    {
+      "type": "memory",
+      "level": "critical",
+      "message": "RAM > 90% sur Serveur Ubuntu GNS3",
+      "equipment": "Serveur Ubuntu GNS3",
+      "id": "42",
+      "timestamp": "2025-07-21T15:59:50.525060",
+      "email_sent": false
+    }
+  ],
+  "counter": 43,
+  "last_updated": "2025-07-21T15:59:50.525906"
+}

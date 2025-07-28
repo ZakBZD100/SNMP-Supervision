@@ -1,0 +1,36 @@
+# FastAPI et serveur
+fastapi==0.116.0
+uvicorn[standard]==0.27.1
+
+# Configuration et environnement
+python-dotenv==1.0.0
+pydantic-settings==2.1.0
+
+# SNMP (easysnmp est plus moderne que pysnmp)
+easysnmp==0.2.6
+
+# Email
+aiosmtplib==3.0.1
+
+# Utilitaires
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Validation
+email-validator==2.1.0
+
+# Authentification
+bcrypt==4.1.2
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Tests (optionnel)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Formatage et linting (optionnel)
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+sqlalchemy==2.0.41 

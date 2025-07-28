@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Serveur Ubuntu GNS3",
+    "ip": "192.168.57.3",
+    "type": "server",
+    "community": "public",
+    "enabled": true,
+    "description": "Machine de supervision Ubuntu principale",
+    "updated_at": "2025-07-21T11:47:47.840891",
+    "updated_by": "admin"
+  },
+  {
+    "id": 2,
+    "name": "Switch Cisco",
+    "ip": "192.168.57.2",
+    "type": "switch",
+    "community": "public",
+    "enabled": true,
+    "description": "Switch Cisco pour la supervision réseau",
+    "updated_at": "2025-07-21T11:22:33.447657",
+    "updated_by": "admin"
+  }
+]

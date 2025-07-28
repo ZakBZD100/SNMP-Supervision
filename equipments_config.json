@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Serveur Ubuntu",
+    "ip": "192.168.57.2",
+    "type": "server",
+    "community": "public",
+    "enabled": true,
+    "description": "Serveur principal Ubuntu",
+    "updated_at": "2025-07-26T21:23:16.954717",
+    "updated_by": "admin"
+  },
+  {
+    "id": 2,
+    "name": "Switch Cisco",
+    "ip": "192.168.57.3",
+    "type": "switch",
+    "community": "public",
+    "enabled": true,
+    "description": "Switch principal Cisco",
+    "updated_at": "2025-07-26T21:23:25.227477",
+    "updated_by": "admin"
+  }
+]
