@@ -25,6 +25,10 @@ A modern SNMP monitoring system with real-time web interface for network equipme
 ![Login Interface](Screenshots/Login.png)
 The secure authentication interface with user login and registration capabilities.
 
+### GNS3 Simulation (Switch & Server)
+![GNS3 Simulation](Screenshots/GNS3.png)
+This screenshot shows the GNS3 simulation environment used for testing: a virtual switch and a server are deployed and monitored by the SNMP Supervision platform.
+
 ### Dashboard - Server Monitoring
 ![Server Monitoring](Screenshots/Server.png)
 Real-time server metrics including CPU usage, memory consumption, and disk utilization with interactive charts.
